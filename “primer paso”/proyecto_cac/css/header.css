@@ -1,0 +1,37 @@
+
+.header { 
+    display:flex;
+    background: (white, white, gray);
+    align-items: center;
+    font-family: sans-serif;
+
+}
+.header img {
+    height: 65px;
+    width: 180px;
+}
+
+.iconoLogo {
+    width: 100px;
+    height: 100px;
+    justify-content: left;
+}
+
+#logoPrincipal {
+    width: 400px;
+}
+
+.botonMenu {
+    margin-left: 150px;
+    color: hsl(40, 21%, 5%);
+    padding-right: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.botonMenu:hover {
+    color: hsl(82, 29%, 55%);
+
+    font-size: 20px;
+}
