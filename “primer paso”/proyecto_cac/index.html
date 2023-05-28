@@ -23,40 +23,31 @@
 <body>
     <!-- ENCABEZADO -->
     <header>
-    
-
-
         <nav class="header">
-
             <div class="header_img">
                 <a title="Rhythm House" href="index.html"><img class="iconoLogo" src="img/freeLogo.png"
                         alt="Icono Rhythm House"></a>
             </div>
             <br><br><br>
 
-
             <div class="header_links">
-                
                 <a class="botonMenu" href="index.html">HOME</a>
                 <a class="botonMenu" href="#">CURSOS</a>
                 <a class="botonMenu" href="#">¿QUIÉNES SOMOS?</a>
-                <a class="botonMenu" href="pages/contacto.html">CONTACTO</a>
+                <a class="botonMenu" href="pages/contacto.html">SUSCRIBIRSE</a>
             </div>
         </nav>
-
     </header>
 
     <!-- CUERPO DE LA PAG -->
     <main>
         <div class="body">
-            
-            <div class="imagen-container">
-                        <img src="img/blackMinimal.png" alt="">
-
-                    </div>
-        </div>           
-            <div class="presentacion"> 
-                    <p class="main_texto">Bienvenidos a Rhythm House, la academia  de música donde encontrarás todo lo que
+            <div class="item">
+                <img class="imag" src="img/blackMinimal.png" alt="">
+            </div>
+            <div class="presentacion">
+                <h2>BIENVENIDA</h2>
+                <p class="main_texto">Bienvenidos a Rhythm House, la academia de música donde encontrarás todo lo que
                     necesitas para desarrollar tu talento musical.
                     <br>
                     Nuestro enfoque único y moderno en la enseñanza de la música te permitirá aprender y crecer como
@@ -65,25 +56,25 @@
                     Ofrecemos una amplia variedad de clases y talleres para todas las edades y niveles, desde clases de
                     iniciación para niños hasta programas avanzados para adultos.
                 </p>
-                </div> 
+            </div>
 
-                <section id="cursos">
+            <div id="cursos">
                 <h2>CONOCE NUESTROS CURSOS</h2>
-                    <div class="main_galeria">
+                <div class="main_galeria">
                     <img class="fotosPrincipal" src="./img/canto.png" alt="Imagen curso de canto">
                     <img class="fotosPrincipal" src="./img/guitarra2.png" alt="Imagen curso de guitarra">
                     <img class="fotosPrincipal" src="./img/bateria2.png" alt="Imagen curso de bateria">
                     <img class="fotosPrincipal" src="./img/violin.png" alt="Imagen curso de violin">
-                    </div>
-                </div> 
+                </div>
+            </div>
+        </div>
 
-                </section>
-                
-            <section class="sectionVideo">
-            <h2>NUESTRA HISTORIA</h2>
-            <video src="/proyecto_cac/videos/coverr-a-hand-taking-a-guitar-from-its-stand-5709-1080p.mp4" muted controls loop data-smart-video  width="1600"></video>
-            </section>
-        
+        <div class="presentacion">
+            <h2>Unete Ahora y Disfruta..</h2>
+            <iframe id="myFrame" width="560" height="315" src="https://www.youtube.com/embed/vfwSVhFS4es"
+                title="Guitarra" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+        </div>
+        </div>
     </main>
 
     <!-- PIE DE PAG -->
@@ -98,8 +89,8 @@
                     <div class="sb_footer_links_div">
                         <h4 class="footer_titulo">Desarrolladores</h4>
                         <ul class="footer_lista">
-                            <li class="integrantes">Ibrahim, Eric</li>
                             <li class="integrantes">Devechi, Agustín</li>
+                            <li class="integrantes">Ibrahim, Eric</li>
                             <li class="integrantes">Natucci, Valeria</li>
                             <li class="integrantes">Nobile, Pablo</li>
                         </ul>
@@ -107,8 +98,10 @@
                     <div class="sb_footer_links_div">
                         <h4 class="footer_titulo">Contacto</h4>
                         <ul class='iconLista'>
-                            <li><a class='facebook' href="https://www.facebook.com/profile.php?id=100093154056964"><i class="fab fa-facebook-f fa-2x"></i></a></li>
-                            <li><a class='instagram' href="https://www.instagram.com/academiademusicarh/#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                            <li><a class='facebook' href="https://www.facebook.com/profile.php?id=100093154056964"><i
+                                        class="fab fa-facebook-f fa-2x"></i></a></li>
+                            <li><a class='instagram' href="https://www.instagram.com/academiademusicarh/#"><i
+                                        class="fab fa-instagram fa-2x"></i></a></li>
                             <li><a class='twitter' href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
                         </ul>
                     </div>
@@ -123,22 +116,22 @@
                         </p>
                     </div>
                     <div class="sb_footer_below_links">
-                        <a href="/terms">
+                        <a href="#">
                             <div>
                                 <p>Terms & Conditions</p>
                             </div>
                         </a>
-                        <a href="/privacy">
+                        <a href="#">
                             <div>
                                 <p>Privacy</p>
                             </div>
                         </a>
-                        <a href="/security">
+                        <a href="#">
                             <div>
                                 <p>Security</p>
                             </div>
                         </a>
-                        <a href="/cookie">
+                        <a href="#">
                             <div>
                                 <p>Cookie Declaration</p>
                             </div>
@@ -148,7 +141,7 @@
             </div>
         </div>
     </footer>
-    <script src="js/indexdom.js"></script>
+    <script src="js/myFrame.js"></script>
 </body>
 
 </html>
