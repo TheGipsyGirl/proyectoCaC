@@ -23,7 +23,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     text-align: left;
-    /* margin-bottom: auto; */
 }
 
 .sb_footer_links_div {
@@ -89,10 +88,6 @@
 
 .iconLista a.twitter:hover {
     background: #55acee;
-}
-
-.iconLista a.google:hover {
-    background: #dd4b39;
 }
 
 hr {
